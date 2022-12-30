@@ -1,0 +1,20 @@
+
+seq 1 10
+seq 1 10 > output.txt
+cat output.txt 
+head -5
+head -5 < output.txt 
+head -5 < output.txt > b.txt
+cat b.txt 
+echo abc >> b.txt 
+cat b.txt 
+ls
+ls | head -5
+ls | head -5 | grep signal
+ehco hello | ls
+ls | shco hello
+head -5 < b.txt | tail -2
+sleep 10
+htop
+mkdir hello
+clear
