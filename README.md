@@ -13,3 +13,4 @@ Classes began on 28th July 2022
 - Probability and Statistics
 
 
+Inspired from [this](https://github.com/george-paul/iiit-h) repo.
