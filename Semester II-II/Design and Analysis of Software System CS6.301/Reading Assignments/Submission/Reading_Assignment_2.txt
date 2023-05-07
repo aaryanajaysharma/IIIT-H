@@ -1,0 +1,15 @@
+The paper A Plea for Lean Software by Niklaus Wirth is divided into several sections, each of which presents a different aspect of the argument for the importance of simplicity and maintainability in software development.
+
+Introduction: The author presents the problem of software complexity and the need for a more minimalistic approach to software development. He argues that the industry trend of focusing on performance and features leads to complex and hard to maintain software.
+
+The Oberon Project: The author introduces the Oberon project, a research project aimed to design and implement a simple, efficient, and easy-to-use operating system and programming language with the goal of creating a lean, elegant, and maintainable system. He also mentions that the Oberon programming language is based on Pascal, but with a simpler syntax and more powerful type system.
+
+The Importance of Simplicity: The author explains that the key to achieving lean software is through the use of simple and elegant programming languages and the use of structured programming techniques. He also stresses the importance of clear documentation, and the need for developers to adopt a disciplined, systematic approach to software development, with the goal of producing software that is as simple and elegant as possible.
+
+The Oberon Language: The author describes the Oberon programming language, including its features and its relationship to other languages such as Pascal. He explains that the Oberon language is designed to be simple, efficient, and easy to understand.
+
+The Oberon System: The author describes the Oberon system, including its small, efficient operating system, file system, and set of utilities. He explains that all components of the Oberon system are written in Oberon.
+
+Conclusion: The author summarizes the main points of the paper and reiterates the importance of simplicity and maintainability in software development. He also mentions the influence of Oberon project in other systems.
+
+In summary, the paper A Plea for Lean Software by Niklaus Wirth presents a clear and concise argument for the importance of simplicity and maintainability in software development. The author provides examples and practical advice on how to achieve it and how the Oberon project has been influential in this field. Each section of the paper focuses on a different aspect of the argument, from the problem of software complexity to the details of the Oberon project and its influence.
