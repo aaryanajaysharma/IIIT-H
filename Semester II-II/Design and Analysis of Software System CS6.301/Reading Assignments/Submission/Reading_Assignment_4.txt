@@ -1,0 +1,29 @@
+Question: For the handwriting psychometric analysis tool example discussed in class, write a one page document addressing the following:
+
+    Purpose
+    Who and Why
+    Functional features (5-7 points)
+    Milestones (3-5 points)
+    Research
+
+Answer:
+
+Purpose: This project aims to develop a psychometric handwriting analysis tool for our client. This tool will analyse handwriting samples and provide insights into the writer's personality, emotions, and mental state.
+Who and Why: Our client is a psychological research firm specialising in studying handwriting and its relationship to personality and mental health. They plan to use this tool in their research studies and potentially make it available to other researchers and professionals in the field.
+Functional features:
+1. Handwriting analysis: The tool will analyse handwriting samples and provide detailed information about the writer's personality, emotions, and mental state.
+2. Graphical representation: The tool will present the analysis results in a clear and easy-to-understand graphical format.
+3. Comparison: The tool will be able to compare handwriting samples from different writers and identify similarities and differences.
+4. Data export: The tool will allow users to export the analysis results in various formats, including CSV and PDF.
+5. User management: The tool will include a user management system that allows multiple users to access the tool and manage their handwriting samples.
+6. Security: The tool will include robust security features to protect the confidentiality of the handwriting samples and analysis results.
+7. Integration with other tools: The tool will be able to integrate with other psychological assessment tools and databases.
+Milestones:
+1. Initial design and development: We will begin by designing the tool’s overall architecture and user interface and developing the core handwriting analysis algorithm.
+2. Beta testing: We will conduct beta testing with a small group of users to gather feedback and make any necessary adjustments to the tool.
+3. Final release: We will release the final version of the tool to our client and make it available for use in their research studies.
+4. Maintenance and support: We will provide ongoing maintenance and support for the tool to ensure that it continues to function correctly and meet the needs of our clients.
+Resources:
+* Development team: A team of software developers with experience in handwriting analysis, machine learning, and user interface design will be responsible for building the tool.
+* Data: The client will provide handwriting samples and other related data.
+* Tools: We will use standard development tools such as Git, Python, and TensorFlow to build the tool.

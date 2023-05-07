@@ -1,0 +1,10 @@
+    Software process is a set of activities, methods, practices, and transformations used to develop and maintain software and associated products.
+    The software development process involves translating user needs into requirements, design, code, testing and installation.
+    The objective of software development is efficient integration in real-life situations.
+    Various software development methods have been adopted such as waterfall, iterative and incremental, spiral, V model, rapid application development, prototyping, agile, and hybrid spiral.
+    Adherence to a suitable life cycle model helps to produce good quality products.
+    Mainly there are four phase of software development: software requirement, software design, software coding/implementation, and software testing.
+    These phases have an individual impact on software quality attributes and play an important role to improve quality in finished products.
+    A suitable life cycle model can be selected based on an analysis of issues such as: characteristics of the software to be developed, characteristic of development team, and characteristics of the customer.
+    Failure of many software projects has led to software quality becoming a key issue for all stakeholders.
+    The objective of the paper is to present a review on the impact of software development process on software quality.
