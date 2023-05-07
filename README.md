@@ -12,5 +12,18 @@ Classes began on 28th July 2022
 - OS and Networks
 - Probability and Statistics
 
+## Semester II-II (Monsoon)
+Classes began on 3rd January 2023
+
+### Courses:
+- Design and Analysis of Software Systems
+- Introduction to Brain and Cognition
+- Introduction to Human Sciences
+- Introduction to Information Security
+- Machine, Data and Learning
+- Music, Mind and Technology
+- Performance Modeling of Computer Systems
+- Value Education - II
+
 
 Inspired from [this](https://github.com/george-paul/iiit-h) repo.
