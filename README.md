@@ -12,7 +12,7 @@ Classes began on 28th July 2022
 - OS and Networks
 - Probability and Statistics
 
-## Semester II-II (Monsoon)
+## Semester II-II (Spring)
 Classes began on 3rd January 2023
 
 ### Courses:
