@@ -1,0 +1,83 @@
+version: "3"
+
+services:
+  namenode:
+    build: ./namenode/
+    container_name: namenode
+    restart: always
+    platform: linux/amd64
+    ports:
+      - 9870:9870
+      - 9000:9000
+    volumes:
+      - type: bind
+        source: ./hadoop
+        target: /hadoop
+      - hadoop_namenode:/hadoop/dfs/name
+      - ./submit/:/root/submit
+    environment:
+      - CLUSTER_NAME=test
+    env_file:
+      - ./hadoop.env
+
+  datanode0:
+    build: ./datanode/
+    container_name: datanode0
+    restart: always
+    platform: linux/amd64
+    volumes:
+      - hadoop_datanode0:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file:
+      - ./hadoop.env
+
+  datanode1:
+    build: ./datanode/
+    container_name: datanode1
+    restart: always
+    platform: linux/amd64
+    volumes:
+      - hadoop_datanode1:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file:
+      - ./hadoop.env
+  
+  resourcemanager:
+    build: ./resourcemanager/
+    container_name: resourcemanager
+    restart: always
+    platform: linux/amd64
+    environment:
+      SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode0:9864 datanode1:9864"
+    env_file:
+      - ./hadoop.env
+
+  nodemanager:
+    build: ./nodemanager/
+    container_name: nodemanager
+    restart: always
+    platform: linux/amd64
+    environment:
+      SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode0:9864 datanode1:9864 resourcemanager:8088"
+    env_file:
+      - ./hadoop.env
+  
+  historyserver:
+    build: ./historyserver/
+    container_name: historyserver
+    restart: always
+    platform: linux/amd64 
+    environment:
+      SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode0:9864 datanode1:9864 resourcemanager:8088"
+    volumes:
+      - hadoop_historyserver:/hadoop/yarn/timeline
+    env_file:
+      - ./hadoop.env
+  
+volumes:
+  hadoop_namenode:
+  hadoop_datanode0:
+  hadoop_datanode1:
+  hadoop_historyserver:

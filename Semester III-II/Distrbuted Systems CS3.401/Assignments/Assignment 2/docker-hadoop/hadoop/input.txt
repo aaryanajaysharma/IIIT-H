@@ -1,0 +1,3 @@
+doc1	I love pasta
+doc2	Italy is a great country having great Pasta
+doc3	I love Italy because Italy has good Pasta
