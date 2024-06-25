@@ -31,6 +31,7 @@ Classes began on 31st July 2023
 ### Courses:
 - Advanced Computer Networks
 - CSE-Honours Project 1
+- Data Foundation Systems
 - Learning and Memory
 - Open Quantum Systems and Quantum Thermodynamics
 - Statistical Methods in AI
