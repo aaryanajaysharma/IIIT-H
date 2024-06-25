@@ -25,5 +25,26 @@ Classes began on 3rd January 2023
 - Performance Modeling of Computer Systems
 - Value Education - II
 
+## Semester III-I (Monsoon)
+Classes began on 31st July 2023
+
+### Courses:
+- Advanced Computer Networks
+- CSE-Honours Project 1
+- Learning and Memory
+- Open Quantum Systems and Quantum Thermodynamics
+- Statistical Methods in AI
+
+## Semester III-II (Spring)
+Classes began on 2nd January 2024
+
+### Courses:
+- Advanced Algorithms
+- CSE-Honours Project 2
+- Distrbuted Systems
+- Growth and Developement
+- Topics in Deep Learning
+- Independent Study
+
 
 Inspired from [this](https://github.com/george-paul/iiit-h) repo.
